@@ -1,0 +1,37 @@
+{
+  "requestedQuantity": 1000,
+  "evaluationWeights": {
+    "price": 0.5,
+    "deliveryDays": 0.3,
+    "qualityRating": 0.2
+  },
+  "bids": [
+    {
+      "supplierId": "SUP-001",
+      "supplierName": "Acme Corp",
+      "type": "FIXED_PRICE",
+      "totalPrice": 5000.00,
+      "deliveryDays": 14,
+      "qualityRating": 4.2
+    },
+    {
+      "supplierId": "SUP-002",
+      "supplierName": "GlobalSupply Inc",
+      "type": "UNIT_PRICE",
+      "unitPrice": 4.75,
+      "deliveryDays": 10,
+      "qualityRating": 3.8
+    },
+    {
+      "supplierId": "SUP-003",
+      "supplierName": "ValueSource Ltd",
+      "type": "TIERED_PRICE",
+      "tiers": [
+        { "minQuantity": 1, "maxQuantity": 500, "unitPrice": 6.00 },
+        { "minQuantity": 501, "maxQuantity": 2000, "unitPrice": 4.50 }
+      ],
+      "deliveryDays": 7,
+      "qualityRating": 4.5
+    }
+  ]
+}
