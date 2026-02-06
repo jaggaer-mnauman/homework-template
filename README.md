@@ -43,7 +43,7 @@ The system must calculate effective prices, score each bid against weighted crit
 
 #### Technical Requirements
 
-- **Java 17** with **Maven**
+- Minimum **Java 11** with **Maven** (we currently use Java 17)
 - Must compile and run with Maven commands
 - Include **unit tests** (JUnit)
 - Use **Jackson** for JSON parsing
@@ -181,6 +181,7 @@ Please submit:
 - Keep methods focused on a single responsibility
 - Don't over-engineer; solve the problem at hand
 - Document any assumptions in your README
+- AI tools are allowed, but we suggest leaning on your own approach as much as possible so you get the most out of the exercise
 
 ---
 
